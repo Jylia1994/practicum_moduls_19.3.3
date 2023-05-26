@@ -33,7 +33,7 @@ print(res1.json())
 
 
 headers = {'accept':'application/json'}
-res2 = requests.delete(f'https://petstore.swagger.io/v2/pet/9223372036854595160', headers=headers)
+res2 = requests.delete(f'https://petstore.swagger.io/v2/pet/9223372036854748996', headers=headers)
 
 print('Удаление питомца, статус код:', res2.status_code)
 print(res2.text)
